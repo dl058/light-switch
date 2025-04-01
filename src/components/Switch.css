@@ -1,0 +1,29 @@
+p.theBulb {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.Switch {
+  border: solid pink 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20%;
+}
+
+.Switch button.onBtn {
+  background-color: rgb(194, 189, 189);
+  color: white;
+  padding: 10px;
+  border: 1px solid gray;
+  border-bottom: 0;
+}
+
+.Switch button.offBtn {
+  background-color: darkgray;
+  border: 1px solid gray;
+  padding: 10px 6px;
+  color: white;
+  border-top: 0;
+}
